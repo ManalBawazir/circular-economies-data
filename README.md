@@ -4,7 +4,8 @@ The NYU Wagner team conducted a siting analysis to identify an ideal site for th
 - Maspeth IBZ in Queens
 - Long Island City IBZ  in Queens
 - Port Morris IBZ in the Bronx
-- West Shore IBZ in StatenIsland
+- West Shore IBZ in Staten Island
+
 Below is a detailed methodology of how the team produced the datasets in this repository:
 1. Download [NYC City Owned and Leased Properties (COLP)](https://data.cityofnewyork.us/City-Government/City-Owned-and-Leased-Property-COLP-/fn4k-qyk2/data), [Facilities Database](https://www.nyc.gov/site/planning/data-maps/open-data.page#city_facilities), and [MapPLUTO](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page) into ArcGiS and clip these layers to their respective IBZ using the [IBZ shapefile](https://edc.nyc/industry/industrial-and-manufacturing)
 2. Using the MapPLUTO layer that is clipped to their respective  IBZ Shapefiles, Government-Owned Facilities were classified  into the three categories, fully tax exempt land, owned by the city and owned by either a Public Authority or State or Federal government, under the ‘Ownertype’ column. Using symbology features, identify each respective category using a different color.
